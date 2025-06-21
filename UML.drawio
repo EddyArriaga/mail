@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HOaCgICPYUKO8bvhhv8w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;horizontal=1;endArrow=open;endFill=0;" edge="1" parent="1" source="HOaCgICPYUKO8bvhhv8w-1" target="HOaCgICPYUKO8bvhhv8w-12">
+        <mxCell id="HOaCgICPYUKO8bvhhv8w-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;horizontal=1;endArrow=open;endFill=0;curved=0;" edge="1" parent="1" source="HOaCgICPYUKO8bvhhv8w-1" target="HOaCgICPYUKO8bvhhv8w-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HOaCgICPYUKO8bvhhv8w-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;horizontal=1;endArrow=open;endFill=0;" edge="1" parent="1" source="HOaCgICPYUKO8bvhhv8w-1" target="HOaCgICPYUKO8bvhhv8w-21">
+        <mxCell id="HOaCgICPYUKO8bvhhv8w-30" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;horizontal=1;endArrow=open;endFill=0;curved=0;" edge="1" parent="1" source="HOaCgICPYUKO8bvhhv8w-1" target="HOaCgICPYUKO8bvhhv8w-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HOaCgICPYUKO8bvhhv8w-1" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
