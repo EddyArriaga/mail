@@ -1,7 +1,10 @@
 package com.mail;
 
+import com.mail.controller.LoginController;
+import com.mail.view.LoginView;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new LoginController(new LoginView());
     }
 }
