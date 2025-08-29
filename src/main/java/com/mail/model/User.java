@@ -1,44 +1,18 @@
 package com.mail.model;
 
 import java.util.ArrayList;
+import java.util.List;
 
-public class User {
+public abstract class User {
+    protected String name;
+    protected String emailAddress;
+    protected String password;
+    protected List<User> contacts = new ArrayList<User>();
+    protected List<EmailFolder> emailFolders = new ArrayList<EmailFolder>();
 
-    private String name;
-    private ArrayList<Contact> contacts;
-    private ArrayList<EmailList> emailLists;
-
-    public User() {
-
+    public User(String name, String emailAddress, String password) {
+        this.name = name;
+        this.emailAddress = emailAddress;
+        this.password = password;
     }
-
-    public void addContact(Contact contact) {
-        contacts.add(contact);
-    }
-
-    public void deleteContact(Contact contact) {
-        contacts.remove(contact);
-    }
-
-    public void addEmailList(EmailList emailList) {
-        emailLists.add(emailList);
-    }
-
-    public void deleteEmailList(EmailList emailList) {
-        emailLists.remove(emailList);
-    }
-
-    // Lógica para enviar correo usando "EmailSender".
-    public void sendEmail() {
-
-    }
-
-    public ArrayList<Contact> getContacts() {
-        return contacts;
-    }
-
-    public ArrayList<EmailList> getEmailLists() {
-        return emailLists;
-    }
-    
 }

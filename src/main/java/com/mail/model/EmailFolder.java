@@ -1,22 +1,23 @@
 package com.mail.model;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-public class EmailList {
+public class EmailFolder {
     private String name;
-    private ArrayList<Email> emails;
+    private List<Email> emails = new ArrayList<>();
 
-    public EmailList(String name) {
+    public EmailFolder(String name) {
         this.name = name;
-        emails = new ArrayList<Email>();
     }
 
     public void addEmail(Email email) {
         emails.add(email);
     }
 
-    public void deleteEmail(Email email) {
-        emails.remove(email);
+    public void removeEmail(int i) {
+        emails.remove(i);
     }
 
     public String getName() {
@@ -27,7 +28,7 @@ public class EmailList {
         this.name = name;
     }
 
-    public ArrayList<Email> getEmails() {
-        return emails;
+    public List<Email> getEmails() {
+        return Collections.unmodifiableList(emails);
     }
 }

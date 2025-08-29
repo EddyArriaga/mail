@@ -1,15 +1,17 @@
 package com.mail.model;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class EmailSender {
-    // Lógica para enviar correo a un usuario.
-    public void send(Email email, User user) {
-        
+
+    // Logic to send email to user.
+    public String send(Email email, User user) {
+        return "";
     }
 
-    // Lógica para enviar correo a varios usuarios.
-    public void send(Email email, ArrayList<User> users) {
-        
+    // Logic to send email to a list of user.
+    public String send(Email email, List<User> users) {
+        return "";
     }
+
 }
